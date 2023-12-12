@@ -1,0 +1,6 @@
+layer,neuron,score,explanation
+0,286,0.663509473, words related to comparison.
+10,1838,0.676885575, phrases describing positions or situations involving oneself.
+20,193,0.455764167,verbs indicating questioning or challenging behavior.
+30,1685,0.537097037, expressions of gratitude and agreeing to receive something.
+40,431,0.365750284," numbers related to time, dates, and measurements."
