@@ -4,7 +4,7 @@ This is the official repository containing the code for our paper [The Importanc
 
 We find that simpler, more intuitive prompts such as our summary can increase both computational efficiency and quality of the generated explanations. In particular our simple **Summary** prompt shown below can outperform the original while requiring 2.4 times less input tokens per neuron.
 
-<img src=prompt_comparison.png alt="Overview" width=850 height=266>
+<img src=figs/prompt_comparison.png alt="Overview" width=850 height=266>
 
 ## Quickstart
 
@@ -23,6 +23,10 @@ We find that simpler, more intuitive prompts such as our summary can increase bo
 5. Finally our comparison of number of API tokens per explained neuron can be reproduced in `Experiments\simulate_score.ipynb`.
 
 `Experiments\save_neuron_info.ipynb` and `Experiments\get_interpretable_neurons.ipynb` are used to collect NeuronViewer explanations and select which neurons we should explain.
+
+## Overview of Neuron Explanation Pipeline
+
+<img src=figs/animation.gif alt="Overview" width=850 height=478>
 
 ## Cite us
 
